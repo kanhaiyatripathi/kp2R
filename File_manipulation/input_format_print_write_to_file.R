@@ -1,0 +1,6 @@
+n2 <- readline(prompt=" Enter the path of file: ")
+n1<- readline(prompt="Enter the number of Lines: ")
+n1 <- as.integer(n1)
+p<- readLines(con = stdin(), n = n1, ok = TRUE, warn = TRUE,encoding = "unknown", skipNul = FALSE)
+p1 <- format(p, width = 5, justify = "centre")
+write.table(p1, n2, append = TRUE, sep = " ", dec = ".",row.names = FALSE, col.names = FALSE)

@@ -1,0 +1,5 @@
+library("XML")
+library("methods")
+n1 <- readline(prompt="Enter the path of XML file: ")
+result <- xmlParse(file = n1)
+print(result)

@@ -1,0 +1,8 @@
+n1 <- readline(prompt=" Please Enter the first Number: ")
+n2 <- readline(prompt= " Please Enter the second Number: ")
+n3 <- readline(prompt= " Please Enter the third Number: ")
+n1<-as.numeric(n1)
+n2<-as.numeric(n2)
+n3<-as.numeric(n3)
+n4=max(n1,n2,n3)
+cat("The largest number between",n1 , n2, "and", n3, "is",n4)

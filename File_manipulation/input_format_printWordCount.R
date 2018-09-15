@@ -1,0 +1,6 @@
+n2 <- readline(prompt=" Enter the path of file: ")
+n1<- readline(prompt="Enter the number of Lines: ")
+n1 <- as.integer(n1)
+p<- readLines(con = stdin(), n = n1, ok = TRUE, warn = TRUE,encoding = "unknown", skipNul = FALSE)
+p1 <- format(p, width = 5, justify = "centre")
+cat("Total word Count after formatting",sum(nchar(p1, type = "chars", allowNA = FALSE, keepNA = NA)))

@@ -1,0 +1,5 @@
+n1 <- readline(prompt=" Enter first Integer Input: ")
+n2 <- readline(prompt=" Enter second Integer Input: ")
+n1 <- as.integer(n1)
+n2 <- as.integer(n2)
+cat("Quotient of two Integral Input is: ",n1%/%n2)

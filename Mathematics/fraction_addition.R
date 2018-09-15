@@ -1,0 +1,5 @@
+n1 <- readline(prompt=" Enter first fractional Input: ")
+n2 <- readline(prompt=" Enter second fractional Input: ")
+n1 <- as.double(n1)
+n2 <- as.double(n2)
+cat("Sum of two fractional Input is: ",n1+n2)

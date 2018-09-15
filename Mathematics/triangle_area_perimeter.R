@@ -1,0 +1,10 @@
+n1 <- readline(prompt=" Enter the first side of triangle: ")
+n1 <- as.numeric(n1)
+n2 <- readline(prompt=" Enter the second side of triangle: ")
+n2 <- as.numeric(n2)
+n3 <- readline(prompt=" Enter the third side of triangle: ")
+n3 <- as.numeric(n3)
+s <- (n1+n2+n3)/2
+area <- sqrt(s*(s-n1)*(s-n2)*(s-n3))
+cat("Area of rectangle: ",area,"\n")
+cat("Perimeter of rectangle: ",2*n3)
