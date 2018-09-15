@@ -1,0 +1,5 @@
+n1 <- readline(prompt=" Enter the String: ")
+x <- readline(prompt=" Enter the length of substring: ")
+x <- as.integer(x)
+n2 <- substr(n1,0,x)
+print(n2)

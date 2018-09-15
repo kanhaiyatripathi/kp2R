@@ -1,0 +1,5 @@
+n1 <- readline(prompt=" Enter the String: ")
+x <- readline(prompt=" Enter the substring to be replaced: ")
+y<- readline(prompt=" Enter the new string to put in place of: ")
+n2 <- gsub(x,y,n1)
+print(n2)
